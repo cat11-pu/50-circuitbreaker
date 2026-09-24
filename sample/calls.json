@@ -1,0 +1,17 @@
+{
+  "window": 4,
+  "threshold": 2,
+  "min_samples": 2,
+  "open_ticks": 3,
+  "probes": 1,
+  "open_invariant": true,
+  "ops": [
+    {"op": "call", "ok": false, "at": 0},
+    {"op": "call", "ok": false, "at": 1},
+    {"op": "tick", "now": 2},
+    {"op": "call", "ok": true, "at": 3},
+    {"op": "tick", "now": 6},
+    {"op": "call", "ok": true, "at": 7},
+    {"op": "call", "ok": true, "at": 8}
+  ]
+}
